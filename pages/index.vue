@@ -6,6 +6,8 @@
         <vuetify-logo />
       </div>
       <v-card>
+        <h2>JNEXT</h2></v-card>
+      <v-card>
         <v-card-title class="headline">
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
@@ -91,3 +93,9 @@ export default {
   },
 }
 </script>
+<style scoped>
+h2{
+  font-size:60px;
+  color:#fff;
+}
+</style>
